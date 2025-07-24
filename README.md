@@ -1,70 +1,88 @@
-# Getting Started with Create React App
+# J.E.F.F: Joyful Emotional Fan Factory
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A vibrant, interactive fan web app for Jeff Satur and his community. This app brings together fans to share messages, check tour dates, shop official merch, enjoy music videos, and interact with an AI-powered Jeff experience.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **AI P’Jeff Daily Vibe**: Get a personalized daily message from an AI version of Jeff. Share your name, birthday, mood, and even a photo for a unique response.
+- **Message Board & Wall**: Leave short messages for Jeff and see them displayed as colorful post-its on a virtual wall, with daily message rotation.
+- **Tour Dates**: Stay up-to-date with Jeff’s upcoming concerts and events, including international appearances.
+- **Official Merch Store**: Browse and shop for exclusive tour merchandise with direct links to the official store.
+- **Music Video Carousel**: Watch Jeff’s latest music videos in an interactive carousel.
+- **Background Music**: Enjoy Jeff’s music as background audio, with mute/unmute controls.
+- **Social Links**: Quick access to Jeff’s official social media profiles and streaming platforms.
+- **Modern Responsive UI**: Beautiful, mobile-friendly design with custom fonts and playful visuals.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Screenshots
 
-### `npm test`
+> _Add screenshots or a demo GIF here to showcase the app’s look and feel._
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## Getting Started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Prerequisites
+- [Node.js](https://nodejs.org/) (v14 or higher recommended)
+- npm (comes with Node.js)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone <repo-url>
+   cd jeff
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the development server:
+   ```bash
+   npm start
+   ```
+   The app will open at [http://localhost:3000](http://localhost:3000).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Build for Production
+```bash
+npm run build
+```
+The optimized build will be in the `build/` directory.
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Project Structure
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- `src/App.js` – Main React app with all features and UI
+- `src/App.css` – Custom styles and theming
+- `public/` – Static assets (images, audio, manifest, etc.)
+- `package.json` – Project metadata and dependencies
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Customization
+- **Tour Dates & Merch**: Update the `tourEvents` and `merchItems` arrays in `App.js` to add new events or products.
+- **AI Endpoint**: The AI P’Jeff feature uses a webhook endpoint. Update the URL in `App.js` if you deploy your own AI backend.
+- **Branding**: Replace images in `public/` for custom backgrounds, avatars, and merch photos.
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Dependencies
+- [React](https://reactjs.org/)
+- [react-scripts](https://www.npmjs.com/package/react-scripts)
+- [@testing-library/react](https://testing-library.com/docs/react-testing-library/intro/)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## Credits
+- **Jeff Satur** – Artist and inspiration
+- **FVP Entertainment** – Copyright
+- **Community** – For fan messages and support
+- **ElevenLabs** – Conversational AI widget
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## License
+This project is for fan and educational purposes. For commercial use, please contact the copyright holders.
